@@ -10,7 +10,12 @@ struct CarImplementation
   int speed;
 };
 
-Car get_car(enum CarType)
+static Car car_park[20];
+
+Car CarImplementation aixam = {AIXAM, RED, 16.0, 0.0, 0};
+Car
+
+Car get_car(enum CarType car_type)
 {
 
 }
